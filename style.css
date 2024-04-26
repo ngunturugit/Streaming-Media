@@ -302,6 +302,9 @@ footer p {
     text-align: center;
     padding: 20px;
 }
+
+
+
 @media screen and (min-width:834px) {
     body, header, nav, main, footer {
         width: 834px;
@@ -324,7 +327,7 @@ footer p {
     label span, input {
         display: none;
     }
-    #playlists, #curated {
+    #yourplaylists, #curatedplaylists {
         width: 417px;
         clear: both;
     }
@@ -332,7 +335,7 @@ footer p {
         float:right;
         margin-right: 10px;
     }
-    #playlists .scroll, #curated .scroll {
+    #yourplaylists .scroll, #curatedplaylists .scroll {
         display: grid;
         grid-template-columns: 1fr; 
         grid-template-rows: repeat(5, 1fr);
@@ -340,7 +343,7 @@ footer p {
         overflow-y: auto;
         height: 500px;
     }
-    #playlists img, #curated img {
+    #yourplaylists img, #curatedplaylists img {
         float: left;
     }
     main {
