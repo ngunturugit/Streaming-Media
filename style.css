@@ -2,16 +2,51 @@ html {
     background-color: #020659;
 }
 /*mobile screen*/
+nav {
+    grid-row:1/2;
+    background-color: #030A8C;
+    text-transform: uppercase;
+    position: relative;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #2104D9;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+li a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+[href="#home"] {
+    text-transform: capitalize;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 16px 16px;
+}
+a:hover, input:hover {
+    background-color: #590242;
+}
+
 
 body{
     width:375px;
     margin:0 auto;
+    background-color: #ffffff;
 }
 #trending {
     width:375px;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     overflow: scroll;
+    text-transform: uppercase;
+   
 }
 ul {
     overflow: hidden;
